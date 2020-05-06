@@ -1,8 +1,8 @@
 if /\A(?:latest|day|month|nyear|preview)\z/ =~ @mode then
         add_header_proc do
                 <<-HTML
-                <link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css" rel="stylesheet">
-                <script type="text/javascript" src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+                <link href="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css" rel="stylesheet">
+                <script type="text/javascript" src="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
                 <script type="text/javascript"><!--
                         function google_prettify(){
                                 prettyPrint();
